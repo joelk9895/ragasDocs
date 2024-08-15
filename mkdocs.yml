@@ -1,0 +1,25 @@
+site_name: Ragas
+site_url: https://docs.ragas.io
+theme:
+  name: material
+  palette:
+    scheme: slate
+    accent: teal
+  features:
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - extra/style.css
+plugins:
+  - mkdocs-jupyter:
+      execute: true
+      jupyter_options:
+        hide_input: false
+        hide_output: false
+        code_folding: true
+        code_line_numbers: true
+        jupyter_images: true
+        jupyter_table_beautifier: true
+  - search
+  
