@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ragasdocs"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.33"
+mkdocs-jupyter = "^0.24.8"
+mkdocstrings = {extras = ["python"], version = "^0.25.2"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
