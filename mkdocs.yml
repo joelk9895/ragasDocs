@@ -20,6 +20,9 @@ extra_css:
   - extra/style.css
 plugins:
 - search
+- git-committers:
+    repository: joelk9895/ragasDocs
+    branch: main
 - mkdocs-jupyter:
     execute: false
     jupyter_options:
