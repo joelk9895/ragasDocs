@@ -1,6 +1,7 @@
 site_name: Ragas
 site_url: https://docs.ragas.io
 nav:
+  - Home: index.md
   - Getting Started:
       - Introduction: getting_started/index.md
       - Next Steps: getting_started/next_steps.md
@@ -18,14 +19,10 @@ theme:
 extra_css:
   - extra/style.css
 plugins:
-  - mkdocs-jupyter:
-      execute: true
-      jupyter_options:
-        hide_input: false
-        hide_output: false
-        code_folding: true
-        code_line_numbers: true
-        jupyter_images: true
-        jupyter_table_beautifier: true
-  - search
-  - mkdocstrings
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+          separate_signature: true
+          show_signature_annotations: true

@@ -97,3 +97,14 @@ class School:
         associated with the given student.
         """
         return [c for c in self.classes if c.class_code in student.classes]
+
+    async def get_classes_student_attends_async(self, student: Student):
+        """
+        Return the classes a student attends.
+
+        Parameters
+        ----------
+        student : Student
+            The student object for whom to retrieve the classes.
+        """ 
+        return [c for c in self.classes if c.class_code in student.classes]
