@@ -1,6 +1,7 @@
 site_name: Ragas
 site_url: https://docs.ragas.io
 nav:
+  - Home: index.md
   - Getting Started:
       - Introduction: getting_started/index.md
       - Next Steps: getting_started/next_steps.md
