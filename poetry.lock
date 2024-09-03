@@ -1023,6 +1023,24 @@ mkdocs = ">=1.0.3"
 requests = "*"
 
 [[package]]
+name = "mkdocs-git-revision-date-localized-plugin"
+version = "1.2.7"
+description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
+category = "dev"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "mkdocs_git_revision_date_localized_plugin-1.2.7-py3-none-any.whl", hash = "sha256:d2b30ccb74ec8e118298758d75ae4b4f02c620daf776a6c92fcbb58f2b78f19f"},
+    {file = "mkdocs_git_revision_date_localized_plugin-1.2.7.tar.gz", hash = "sha256:2f83b52b4dad642751a79465f80394672cbad022129286f40d36b03aebee490f"},
+]
+
+[package.dependencies]
+babel = ">=2.7.0"
+GitPython = "*"
+mkdocs = ">=1.0"
+pytz = "*"
+
+[[package]]
 name = "mkdocs-jupyter"
 version = "0.24.8"
 description = "Use Jupyter in mkdocs websites"
@@ -1456,6 +1474,18 @@ files = [
 
 [package.dependencies]
 six = ">=1.5"
+
+[[package]]
+name = "pytz"
+version = "2024.1"
+description = "World timezone definitions, modern and historical"
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pytz-2024.1-py2.py3-none-any.whl", hash = "sha256:328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319"},
+    {file = "pytz-2024.1.tar.gz", hash = "sha256:2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812"},
+]
 
 [[package]]
 name = "pywin32"
@@ -2145,4 +2175,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "2d8e43da4d3aef69a1a5c0472e977232ecfe2a91b6276c00142cd1f006170c81"
+content-hash = "ce750daf7924d4745d60a5eae6f0c0d978fa7874c8d819369d1311c862997b0b"

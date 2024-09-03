@@ -1,5 +1,7 @@
 site_name: Ragas
 site_url: https://docs.ragas.io
+repo_url: https://github.com/joelk9895/ragasDocs
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Getting Started:
@@ -15,6 +17,9 @@ theme:
   features:
     - search.suggest
     - search.highlight
+    - content.action.edit
+    - navigation.expand
+    - navigation.path
 
 extra_css:
   - extra/style.css
@@ -38,3 +43,5 @@ plugins:
         options:
           separate_signature: true
           show_signature_annotations: true
+- git-revision-date-localized:
+    enable_creation_date: true
