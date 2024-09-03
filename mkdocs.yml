@@ -4,20 +4,35 @@ nav:
   - Getting Started:
       - Introduction: getting_started/index.md
       - Next Steps: getting_started/next_steps.md
+      - Installation: module.ipynb
   - About: about.md
   - References: references.md
 theme:
   name: material
   palette:
     scheme: slate
-    accent: teal
+    accent: white
   features:
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - announce.dismiss
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
     - search.suggest
     - search.highlight
 
 extra_css:
   - extra/style.css
 plugins:
+  - search
+  - mkdocstrings
   - mkdocs-jupyter:
       execute: true
       jupyter_options:
@@ -27,5 +42,15 @@ plugins:
         code_line_numbers: true
         jupyter_images: true
         jupyter_table_beautifier: true
-  - search
-  - mkdocstrings
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
