@@ -20,6 +20,13 @@ theme:
     - content.action.edit
     - navigation.expand
     - navigation.path
+    - navigation.footer
+  extra:
+    generator: false
+    social:
+      - icon: fontawesome/brands/mastodon
+        link: https://fosstodon.org/@squidfunk
+        name: squidfunk on Fosstodon
 
 extra_css:
   - extra/style.css
