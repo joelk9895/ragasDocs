@@ -1,6 +1,0 @@
-{
-  "buildCommand": "pip install poetry && poetry install && poetry run mkdocs build -d public",
-  "outputDirectory": "public",
-  "installCommand": "pip install poetry",
-  "framework": null
-}
