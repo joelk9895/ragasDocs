@@ -1,0 +1,9 @@
+{
+  "name": "ragas-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "mkdocs serve",
+    "build": "./build_docs.sh"
+  }
+}

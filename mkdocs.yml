@@ -1,6 +1,7 @@
-site_name: Ragas
-site_url: https://docs.ragas.io
+site_name: RagasDocs
+site_url: https://jjmachan.github.io/ragasDocs
 nav:
+  - Home: index.md
   - Getting Started:
       - Introduction: getting_started/index.md
       - Next Steps: getting_started/next_steps.md
@@ -34,7 +35,7 @@ plugins:
   - search
   - mkdocstrings
   - mkdocs-jupyter:
-      execute: true
+      execute: false
       jupyter_options:
         hide_input: false
         hide_output: false
@@ -42,7 +43,6 @@ plugins:
         code_line_numbers: true
         jupyter_images: true
         jupyter_table_beautifier: true
-
 
 markdown_extensions:
   - pymdownx.highlight:
