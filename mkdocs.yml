@@ -6,6 +6,7 @@ nav:
       - Introduction: getting_started/index.md
       - Next Steps: getting_started/next_steps.md
       - Installation: module.ipynb
+      - Test : getting_started/joel.md
   - About: about.md
   - References: references.md
 theme:
@@ -32,12 +33,22 @@ theme:
 
 extra_css:
   - extra/style.css
+repo_name: explodinggradients/ragas
+repo_url: https://github.com/explodinggradients/ragas
 extra:
   version:
     provider: mike
 plugins:
   - search
   - mkdocstrings
+  - mike:
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
   - mkdocs-jupyter:
       execute: false
       jupyter_options:
