@@ -6,12 +6,39 @@ body {
   color-scheme: dark !important;
   font-family: "Satoshi", Arial, sans-serif !important;
 }
+.md-tabs {
+  background: black !important;
+}
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  background: black !important;
+  box-shadow: none !important;
+}
+.md-search__scrollwrap {
+  background: black !important;
+  color: white !important;
+}
 @font-face {
   font-family: "Satoshi";
   src: url("./fonts/Satoshi-Variable.ttf") format("truetype"),
     url("./fonts/Satoshi-VariableItalic.ttf") format("truetype");
 }
-
+.highlight-ipynb {
+  background: var(--md-code-bg-color) !important;
+  color: white !important;
+  font-size: 1.2em !important;
+  padding: 1em !important;
+}
+.jp-InputArea {
+  border-radius: 5px !important;
+  margin-bottom: 1rem !important;
+  border: none !important;
+}
+.jupyter-wrapper .zeroclipboard-container .clipboard-copy-icon {
+  width: 2em !important;
+}
+.jupyter-wrapper .jp-InputArea-editor {
+  border: none !important;
+}
 h1 {
   font-size: 2em;
   font-weight: 500 !important;
@@ -51,7 +78,4 @@ h1 {
   color: white !important;
   text-align: start !important;
   width: 100% !important;
-}
-.md-header__inner svg {
-  display: none !important;
 }

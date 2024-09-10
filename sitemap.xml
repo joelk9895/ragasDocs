@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.ragas.io/</loc>
-         <lastmod>2024-08-15</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://jjmachan.github.io/ragasDocs/</loc>
+         <lastmod>2024-09-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.ragas.io/module/</loc>
-         <lastmod>2024-08-15</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://jjmachan.github.io/ragasDocs/about/</loc>
+         <lastmod>2024-09-10</lastmod>
+    </url>
+    <url>
+         <loc>https://jjmachan.github.io/ragasDocs/module/</loc>
+         <lastmod>2024-09-10</lastmod>
+    </url>
+    <url>
+         <loc>https://jjmachan.github.io/ragasDocs/references/</loc>
+         <lastmod>2024-09-10</lastmod>
+    </url>
+    <url>
+         <loc>https://jjmachan.github.io/ragasDocs/getting_started/</loc>
+         <lastmod>2024-09-10</lastmod>
+    </url>
+    <url>
+         <loc>https://jjmachan.github.io/ragasDocs/getting_started/next_steps/</loc>
+         <lastmod>2024-09-10</lastmod>
     </url>
 </urlset>
