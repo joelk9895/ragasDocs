@@ -10,6 +10,7 @@ nav:
   - References: references.md
 theme:
   name: material
+  logo: img/logo.png
   palette:
     scheme: slate
     accent: white
@@ -31,6 +32,10 @@ theme:
 
 extra_css:
   - extra/style.css
+extra:
+  version:
+    provider: mike
+    default: stable
 plugins:
   - search
   - mkdocstrings
